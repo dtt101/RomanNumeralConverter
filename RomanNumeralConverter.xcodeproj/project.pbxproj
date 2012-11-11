@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD21531A164FD9CD0023E2A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD215319164FD9CD0023E2A3 /* UIKit.framework */; };
+		BD21531C164FD9CD0023E2A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD21531B164FD9CD0023E2A3 /* Foundation.framework */; };
+		BD21531E164FD9CD0023E2A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD21531D164FD9CD0023E2A3 /* CoreGraphics.framework */; };
+		BD215324164FD9CD0023E2A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD215322164FD9CD0023E2A3 /* InfoPlist.strings */; };
+		BD215326164FD9CD0023E2A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD215325164FD9CD0023E2A3 /* main.m */; };
+		BD21532A164FD9CD0023E2A3 /* VGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD215329164FD9CD0023E2A3 /* VGAppDelegate.m */; };
+		BD21532C164FD9CD0023E2A3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD21532B164FD9CD0023E2A3 /* Default.png */; };
+		BD21532E164FD9CD0023E2A3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD21532D164FD9CD0023E2A3 /* Default@2x.png */; };
+		BD215330164FD9CD0023E2A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD21532F164FD9CD0023E2A3 /* Default-568h@2x.png */; };
+		BD215333164FD9CD0023E2A3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD215331164FD9CD0023E2A3 /* MainStoryboard_iPhone.storyboard */; };
+		BD215336164FD9CD0023E2A3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD215334164FD9CD0023E2A3 /* MainStoryboard_iPad.storyboard */; };
+		BD215339164FD9CD0023E2A3 /* VGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD215338164FD9CD0023E2A3 /* VGViewController.m */; };
+		BD215341164FD9CD0023E2A3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD215340164FD9CD0023E2A3 /* SenTestingKit.framework */; };
+		BD215342164FD9CD0023E2A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD215319164FD9CD0023E2A3 /* UIKit.framework */; };
+		BD215343164FD9CD0023E2A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD21531B164FD9CD0023E2A3 /* Foundation.framework */; };
+		BD21534B164FD9CD0023E2A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD215349164FD9CD0023E2A3 /* InfoPlist.strings */; };
+		BD21534E164FD9CD0023E2A3 /* RomanNumeralConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD21534D164FD9CD0023E2A3 /* RomanNumeralConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD215344164FD9CD0023E2A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD21530C164FD9CD0023E2A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD215314164FD9CD0023E2A3;
+			remoteInfo = RomanNumeralConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD215315164FD9CD0023E2A3 /* RomanNumeralConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD215319164FD9CD0023E2A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD21531B164FD9CD0023E2A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD21531D164FD9CD0023E2A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD215321164FD9CD0023E2A3 /* RomanNumeralConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RomanNumeralConverter-Info.plist"; sourceTree = "<group>"; };
+		BD215323164FD9CD0023E2A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD215325164FD9CD0023E2A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD215327164FD9CD0023E2A3 /* RomanNumeralConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RomanNumeralConverter-Prefix.pch"; sourceTree = "<group>"; };
+		BD215328164FD9CD0023E2A3 /* VGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGAppDelegate.h; sourceTree = "<group>"; };
+		BD215329164FD9CD0023E2A3 /* VGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGAppDelegate.m; sourceTree = "<group>"; };
+		BD21532B164FD9CD0023E2A3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BD21532D164FD9CD0023E2A3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BD21532F164FD9CD0023E2A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BD215332164FD9CD0023E2A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BD215335164FD9CD0023E2A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BD215337164FD9CD0023E2A3 /* VGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGViewController.h; sourceTree = "<group>"; };
+		BD215338164FD9CD0023E2A3 /* VGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VGViewController.m; sourceTree = "<group>"; };
+		BD21533F164FD9CD0023E2A3 /* RomanNumeralConverterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralConverterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD215340164FD9CD0023E2A3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD215348164FD9CD0023E2A3 /* RomanNumeralConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RomanNumeralConverterTests-Info.plist"; sourceTree = "<group>"; };
+		BD21534A164FD9CD0023E2A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD21534C164FD9CD0023E2A3 /* RomanNumeralConverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RomanNumeralConverterTests.h; sourceTree = "<group>"; };
+		BD21534D164FD9CD0023E2A3 /* RomanNumeralConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RomanNumeralConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD215312164FD9CD0023E2A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD21531A164FD9CD0023E2A3 /* UIKit.framework in Frameworks */,
+				BD21531C164FD9CD0023E2A3 /* Foundation.framework in Frameworks */,
+				BD21531E164FD9CD0023E2A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD21533B164FD9CD0023E2A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD215341164FD9CD0023E2A3 /* SenTestingKit.framework in Frameworks */,
+				BD215342164FD9CD0023E2A3 /* UIKit.framework in Frameworks */,
+				BD215343164FD9CD0023E2A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD21530A164FD9CD0023E2A3 = {
+			isa = PBXGroup;
+			children = (
+				BD21531F164FD9CD0023E2A3 /* RomanNumeralConverter */,
+				BD215346164FD9CD0023E2A3 /* RomanNumeralConverterTests */,
+				BD215318164FD9CD0023E2A3 /* Frameworks */,
+				BD215316164FD9CD0023E2A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD215316164FD9CD0023E2A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD215315164FD9CD0023E2A3 /* RomanNumeralConverter.app */,
+				BD21533F164FD9CD0023E2A3 /* RomanNumeralConverterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD215318164FD9CD0023E2A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD215319164FD9CD0023E2A3 /* UIKit.framework */,
+				BD21531B164FD9CD0023E2A3 /* Foundation.framework */,
+				BD21531D164FD9CD0023E2A3 /* CoreGraphics.framework */,
+				BD215340164FD9CD0023E2A3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD21531F164FD9CD0023E2A3 /* RomanNumeralConverter */ = {
+			isa = PBXGroup;
+			children = (
+				BD215328164FD9CD0023E2A3 /* VGAppDelegate.h */,
+				BD215329164FD9CD0023E2A3 /* VGAppDelegate.m */,
+				BD215331164FD9CD0023E2A3 /* MainStoryboard_iPhone.storyboard */,
+				BD215334164FD9CD0023E2A3 /* MainStoryboard_iPad.storyboard */,
+				BD215337164FD9CD0023E2A3 /* VGViewController.h */,
+				BD215338164FD9CD0023E2A3 /* VGViewController.m */,
+				BD215320164FD9CD0023E2A3 /* Supporting Files */,
+			);
+			path = RomanNumeralConverter;
+			sourceTree = "<group>";
+		};
+		BD215320164FD9CD0023E2A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD215321164FD9CD0023E2A3 /* RomanNumeralConverter-Info.plist */,
+				BD215322164FD9CD0023E2A3 /* InfoPlist.strings */,
+				BD215325164FD9CD0023E2A3 /* main.m */,
+				BD215327164FD9CD0023E2A3 /* RomanNumeralConverter-Prefix.pch */,
+				BD21532B164FD9CD0023E2A3 /* Default.png */,
+				BD21532D164FD9CD0023E2A3 /* Default@2x.png */,
+				BD21532F164FD9CD0023E2A3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD215346164FD9CD0023E2A3 /* RomanNumeralConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD21534C164FD9CD0023E2A3 /* RomanNumeralConverterTests.h */,
+				BD21534D164FD9CD0023E2A3 /* RomanNumeralConverterTests.m */,
+				BD215347164FD9CD0023E2A3 /* Supporting Files */,
+			);
+			path = RomanNumeralConverterTests;
+			sourceTree = "<group>";
+		};
+		BD215347164FD9CD0023E2A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD215348164FD9CD0023E2A3 /* RomanNumeralConverterTests-Info.plist */,
+				BD215349164FD9CD0023E2A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD215314164FD9CD0023E2A3 /* RomanNumeralConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD215351164FD9CD0023E2A3 /* Build configuration list for PBXNativeTarget "RomanNumeralConverter" */;
+			buildPhases = (
+				BD215311164FD9CD0023E2A3 /* Sources */,
+				BD215312164FD9CD0023E2A3 /* Frameworks */,
+				BD215313164FD9CD0023E2A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomanNumeralConverter;
+			productName = RomanNumeralConverter;
+			productReference = BD215315164FD9CD0023E2A3 /* RomanNumeralConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD21533E164FD9CD0023E2A3 /* RomanNumeralConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD215354164FD9CD0023E2A3 /* Build configuration list for PBXNativeTarget "RomanNumeralConverterTests" */;
+			buildPhases = (
+				BD21533A164FD9CD0023E2A3 /* Sources */,
+				BD21533B164FD9CD0023E2A3 /* Frameworks */,
+				BD21533C164FD9CD0023E2A3 /* Resources */,
+				BD21533D164FD9CD0023E2A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD215345164FD9CD0023E2A3 /* PBXTargetDependency */,
+			);
+			name = RomanNumeralConverterTests;
+			productName = RomanNumeralConverterTests;
+			productReference = BD21533F164FD9CD0023E2A3 /* RomanNumeralConverterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD21530C164FD9CD0023E2A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "David Thompson";
+			};
+			buildConfigurationList = BD21530F164FD9CD0023E2A3 /* Build configuration list for PBXProject "RomanNumeralConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD21530A164FD9CD0023E2A3;
+			productRefGroup = BD215316164FD9CD0023E2A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD215314164FD9CD0023E2A3 /* RomanNumeralConverter */,
+				BD21533E164FD9CD0023E2A3 /* RomanNumeralConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD215313164FD9CD0023E2A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD215324164FD9CD0023E2A3 /* InfoPlist.strings in Resources */,
+				BD21532C164FD9CD0023E2A3 /* Default.png in Resources */,
+				BD21532E164FD9CD0023E2A3 /* Default@2x.png in Resources */,
+				BD215330164FD9CD0023E2A3 /* Default-568h@2x.png in Resources */,
+				BD215333164FD9CD0023E2A3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				BD215336164FD9CD0023E2A3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD21533C164FD9CD0023E2A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD21534B164FD9CD0023E2A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD21533D164FD9CD0023E2A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD215311164FD9CD0023E2A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD215326164FD9CD0023E2A3 /* main.m in Sources */,
+				BD21532A164FD9CD0023E2A3 /* VGAppDelegate.m in Sources */,
+				BD215339164FD9CD0023E2A3 /* VGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD21533A164FD9CD0023E2A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD21534E164FD9CD0023E2A3 /* RomanNumeralConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD215345164FD9CD0023E2A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD215314164FD9CD0023E2A3 /* RomanNumeralConverter */;
+			targetProxy = BD215344164FD9CD0023E2A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD215322164FD9CD0023E2A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD215323164FD9CD0023E2A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD215331164FD9CD0023E2A3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD215332164FD9CD0023E2A3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BD215334164FD9CD0023E2A3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD215335164FD9CD0023E2A3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BD215349164FD9CD0023E2A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD21534A164FD9CD0023E2A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD21534F164FD9CD0023E2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD215350164FD9CD0023E2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD215352164FD9CD0023E2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomanNumeralConverter/RomanNumeralConverter-Prefix.pch";
+				INFOPLIST_FILE = "RomanNumeralConverter/RomanNumeralConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD215353164FD9CD0023E2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomanNumeralConverter/RomanNumeralConverter-Prefix.pch";
+				INFOPLIST_FILE = "RomanNumeralConverter/RomanNumeralConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD215355164FD9CD0023E2A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomanNumeralConverter.app/RomanNumeralConverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomanNumeralConverter/RomanNumeralConverter-Prefix.pch";
+				INFOPLIST_FILE = "RomanNumeralConverterTests/RomanNumeralConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BD215356164FD9CD0023E2A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomanNumeralConverter.app/RomanNumeralConverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomanNumeralConverter/RomanNumeralConverter-Prefix.pch";
+				INFOPLIST_FILE = "RomanNumeralConverterTests/RomanNumeralConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD21530F164FD9CD0023E2A3 /* Build configuration list for PBXProject "RomanNumeralConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD21534F164FD9CD0023E2A3 /* Debug */,
+				BD215350164FD9CD0023E2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD215351164FD9CD0023E2A3 /* Build configuration list for PBXNativeTarget "RomanNumeralConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD215352164FD9CD0023E2A3 /* Debug */,
+				BD215353164FD9CD0023E2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD215354164FD9CD0023E2A3 /* Build configuration list for PBXNativeTarget "RomanNumeralConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD215355164FD9CD0023E2A3 /* Debug */,
+				BD215356164FD9CD0023E2A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD21530C164FD9CD0023E2A3 /* Project object */;
+}
