@@ -14,6 +14,11 @@
 
 @implementation VGViewController
 
+- (IBAction) calculateButtonPressed:(id)sender {
+    NSString* numberString = [_numberTextField text];
+    NSLog(@"calculate pressed with %@", numberString);
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

@@ -10,4 +10,11 @@
 
 @interface VGViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *numberTextField;
+@property (strong, nonatomic) IBOutlet UILabel *resultLabel;
+
+@property (strong, nonatomic) IBOutlet UIButton *calculateButton;
+
+- (IBAction) calculateButtonPressed:(id)sender;
+
 @end
