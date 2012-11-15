@@ -23,6 +23,8 @@
     numberString = [numberString uppercaseString];
     
     // TODO - validate string for characters, and/or limit input
+    // TODO - make custom keyboard for Roman Numeral entry
+    // TODO - disable standard keyboard
     
     // convert letters to ordered array of numbers
     NSMutableArray *romanValues = [[NSMutableArray alloc] initWithCapacity:[numberString length]];
@@ -49,67 +51,33 @@
         [romanValues addObject:[NSNumber numberWithInt: conversionResult]];
     }
     
-    // TODO - calculate number from Roman Numeral
-    /*
-    I = 1
-    V = 5
-    X = 10
-    L = 50
-    C = 100
-    D = 500
-    M = 1000
-    */
+    // calculate number from Roman Numeral
     int lastValue = 0;
     int total = 0;
     int runningTotal = 0;
     int intRomanValue = 0;
-    NSLog(@"Start calculation");
+
     for (int z = 0; z < [romanValues count]; z++) {
         NSNumber *romanValue = [romanValues objectAtIndex:z];
         intRomanValue = [romanValue intValue];
         
-        NSLog(@"romanValue %@", romanValue);
-        if (z == 0) {
-            // it's the first number so it is added
-            NSLog(@"first number so adding");
+        if ((z == 0) || (intRomanValue <= lastValue)) {
+            // if the first or lte last add
             runningTotal = intRomanValue;
         } else if (intRomanValue > lastValue) {
-            NSLog(@"gt last");
-            // this number is greater than the previous
-            // subtract previous from total
-            // subtract previous from it
+            // if greater take last from total and add new calculated value
             total = total - lastValue;
             runningTotal = intRomanValue - lastValue;
-        } else if (intRomanValue <= lastValue) {
-            NSLog(@"lte last");
-            runningTotal = intRomanValue;
         }
+        
         // save this number as the last one used
         lastValue = intRomanValue;
-        NSLog(@"running total: %d", runningTotal);
+        
         total += runningTotal;
         
     }
     
-    NSLog(@"Final total %d", total);
-    /*
-     When a symbol is the same as the one before it it is added
-     If it is less then the one before it it is added to total
-     If it is greater then the one before it, the one before is subtracted from it and the result
-     added to the total
-     
-    When a symbol appears after a larger symbol it is added
-    Example: VI = V + I = 5 + 1 = 6
-     
-    But if the symbol appears before a larger symbol it is subtracted
-    Example: IX = X - I = 10 - 1 = 9
-     
-    Don't use the same symbol more than three times in a row.
-     */
-    
     // TODO - show number as result
-    // TODO - make custom keyboard for Roman Numeral entry
-    // TODO - disable standard keyboard
 }
 
 - (void)viewDidLoad
