@@ -74,10 +74,14 @@
         lastValue = intRomanValue;
         
         total += runningTotal;
-        
     }
     
-    // TODO - show number as result
+
+    NSString *resultText = [NSString stringWithFormat:@"%d", total];
+    [_resultLabel setText:resultText];
+    
+    // remove keyboard
+    [_numberTextField resignFirstResponder];
 }
 
 - (void)viewDidLoad
